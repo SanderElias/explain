@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+app-root {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+header {
+  grid-column: 1/span 2;
+}
+aside {
+  grid-column: 1;
+  grid-row: 2;
+}
+main {
+  grid-column: 2;
+  grid-row: 2;
+  overflow: auto;
+}
+header, aside, main {
+  border: solid;
+}
+nav a {
+  color: red;
+}
+nav a.active {
+  color: gray;
+}

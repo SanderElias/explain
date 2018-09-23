@@ -1,0 +1,7 @@
+<div><app-banner></app-banner></div>
+<div id="breadcrumb">
+  <nav>
+    <a [routerLink]="['/home']" routerLinkActive="active">Home</a>
+    <a (mouseover)="onHover()" [routerLink]="['/home/prehistory']" routerLinkActive="active">Prehistory</a>
+  </nav>
+</div>
